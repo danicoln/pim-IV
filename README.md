@@ -44,14 +44,14 @@ Desenvolvedor:              Daniel Lincoln M. F. Silva
 
 ## Informação do paciente:
 
- Nome.
- CPF.
- Telefone.
- Endereço (rua, número, bairro, cidade, estado e CEP).
- Data de nascimento.
- E-mail.
- Data do diagnóstico.
- Comorbidade do paciente (diabetes, obesidade, hipertensão, 
+- Nome.
+- CPF.
+- Telefone.
+- Endereço (rua, número, bairro, cidade, estado e CEP).
+- Data de nascimento.
+- E-mail.
+- Data do diagnóstico.
+- Comorbidade do paciente (diabetes, obesidade, hipertensão, 
 tuberculose, outros).
 
- Após o cadastro, o sistema deverá calcular a idade e verificar se o paciente possui alguma comorbidade e se pertence ao grupo de risco (maior de 65 anos).
+> Após o cadastro, o sistema deverá calcular a idade e verificar se o paciente possui alguma comorbidade e se pertence ao grupo de risco (maior de 65 anos).
