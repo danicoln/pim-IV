@@ -31,12 +31,12 @@ cd backend
 
 # Grupo
 
-Gerente de Projetos:        Ricardo Bastos Dominguez        
-Engº de Software:           Luan Piaulino Silva           
-Arqº de Software:           Henrique Alves de Lima        
-Analista de Requisitos:     Gabriel                       
-Desenvolvedor:              Rafael                         
-Desenvolvedor:              Daniel Lincoln M. F. Silva     
+Gerente de Projetos: ------ Ricardo Bastos Dominguez        
+Engº de Software: --------- Luan Piaulino Silva           
+Arqº de Software: --------- Henrique Alves de Lima        
+Analista de Requisitos: --- Gabriel                       
+Desenvolvedor: ------------ Rafael                         
+Desenvolvedor: ------------ Daniel Lincoln M. F. Silva     
 
 
 # Atividades:
