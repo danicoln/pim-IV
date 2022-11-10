@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1668110457 source:c:\users\user\onedrive\documentos\codeblock\pimiv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdbool.h>
+	<time.h>
+
+1667571133 source:c:\users\user\downloads\usuario e senha linguagem c.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
