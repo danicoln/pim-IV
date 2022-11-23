@@ -102,7 +102,7 @@ endereco endCompleto(){
 typedef struct Paciente // tipo de dados
 {
     char nome[30]; // n deu pra definir o array porque o método fopen() não está aceitando
-    char cpf[11];
+    char cpf[30];
     char telefone [11];
     rgData niver;
     char email[20];
@@ -121,9 +121,11 @@ void cadastrarPaciente(){
     char opcao;
 
     struct Paciente paciente;
-
+    char nome = paciente.nome;
     printf("Nome do paciente: ");
-    scanf("%s",&paciente.nome);
+    fflush(stdin);
+    fgets(&paciente.nome, 30, stdin);
+    fflush(stdin);
 
     if (arquivo == NULL)
     {
@@ -138,12 +140,13 @@ void cadastrarPaciente(){
         printf("\n  |                                         CADASTRO DE PACIENTE                                |");
         printf("\n  #=============================================================================================#\n");
 
-        arquivo = fopen(&paciente.nome, "w"); // nomeia o arquivo
+        arquivo = fopen(&nome, "w"); // nomeia o arquivo
 
         fflush(stdin);
         printf("\nDigite o cpf do paciente: ");
-        scanf("%s", &paciente.cpf);
+        fgets(&paciente.cpf, 11, stdin);
         fflush(stdin);
+
         printf("Informe o telefone:");
         scanf("%s", &paciente.telefone);
         fflush(stdin);
@@ -159,9 +162,9 @@ void cadastrarPaciente(){
         printf("\n > Formato: *****-*** \n\n > CEP: ");
         scanf("%s", &paciente.cep);
 
-	/*	printf("\nInforme o endereço Completo: \n");
+		printf("\nInforme o endereço Completo: \n");
         endCompleto();
-*/
+
 		int opc;
       	char msg;
     	bool comorbidade = true;
@@ -176,8 +179,10 @@ void cadastrarPaciente(){
             comorbidade = false;
         }
 
+
         printf("\n  |       Nome      ---------- : %s", &paciente.nome);
         printf("\n  |       CPF       ---------- : %s", &paciente.cpf);
+         fflush(stdin);
         printf("\n  |       Telefone  ---------- : %s", &paciente.telefone);
         printf("\n  |       DataNasc  ---------- : %s", &paciente.niver);
         printf("\n  |       Email     ---------- : %s", &paciente.email);
