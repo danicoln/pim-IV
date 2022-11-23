@@ -269,15 +269,12 @@ printf("Bem vindo ao sistema!\n\n\n");
 
         }
 
-
         /*===============================================================*/
-
 
     bool continua = true;
 
     do
     {
-
         system("cls");
         printf("\n  #====================   Sistema para cadastro de pacientes com COVID-19   ====================#");
         printf("\n  |                                                                                             |");
