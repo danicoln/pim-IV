@@ -12,6 +12,7 @@ Caso o paciente pertença ao grupo de risco, o sistema deverá salvar em um arqu
 # Tecnologias utilizadas
 ## Back end
 - CodeBlock
+- DevC++
 
 # Como executar o projeto
 
@@ -28,14 +29,29 @@ cd backend
 ./mvnw spring-boot:run
 
 ```
+# MANUAL
+![Inicio](https://user-images.githubusercontent.com/99184620/203642387-bc053914-a610-4acc-8300-e65cd077b2a0.jpg)
+
+![Login](https://user-images.githubusercontent.com/99184620/203642429-43372354-ea6b-49ad-b090-dbf548ec240c.jpg)
+
+![Menu](https://user-images.githubusercontent.com/99184620/203642475-fc89b6de-c740-498e-9d45-533f3306f47b.jpg)
+
+![Cadastro](https://user-images.githubusercontent.com/99184620/203642516-eeb57e30-537f-47c1-bc87-f57067d909c3.jpg)
+
+![Dados finais](https://user-images.githubusercontent.com/99184620/203642518-dc79ec9e-4f2d-469e-94eb-5c8135f7575a.jpg)
+
+![Final arquivo](https://user-images.githubusercontent.com/99184620/203642520-7f94d373-9cfc-45f3-9ae7-c88203b32cb3.jpg)
+
+
+
 
 # Grupo
 
 Gerente de Projetos: ------ Ricardo Bastos Dominguez        
-Engº de Software: --------- Luan Piaulino Silva           
+Engº de Software: --------- Daniel Lincoln M. F. Silva           
 Arqº de Software: --------- Henrique Alves de Lima        
-Analista de Requisitos: --- Gabriel                       
-Desenvolvedor: ------------ Rafael                         
+Analista de Requisitos: --- Gabriel Tavares Lopes                      
+Desenvolvedor: ------------ Rafael de Assis Oliveira                        
 Desenvolvedor: ------------ Daniel Lincoln M. F. Silva     
 
 
